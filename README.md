@@ -693,7 +693,7 @@ x = fruits.sort
 fruits.sort!
 # ['apple', 'banana', 'pear']
 
-x = fruits.sort_by do |fruit1, fruit2|
+x = fruits.sort do |fruit1, fruit2|
   fruit1.length <=> fruit2.length
 end
 # ['pear', 'apple', 'banana']
